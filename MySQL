@@ -1,1 +1,28 @@
+XAMPP Control Panel (checar se está tudo funcionando)
+MySQL Workbench (criação de Banco de Dados)
+
+#Cria um Banco de Dados
+CREATE database testDB;
+
+#Usar um Banco de Dados especifico
+USE testDB;
+
+#Criar uma tabela
+CREATE TABLE alunos (matricula int auto_increment, nome varchar(20), snome varchar(20), primary key(matrícula));
+
+#Apagar tabela
+DROP TABLE alunos
+
+#Entrada de dados
+INSERT INTO alunos values (default, 'João', 'Gomes'), (default, 'Jorge', 'Silva');
+
+#Saída de dados
+SELECT * from alunos;
+
+#Deletar dados
+delete from alunos where matriculo = '1';
+
+#Alterar dados
+UPDATE alunos SET nome = 'Jorge' where matricula = '1';
+
 
