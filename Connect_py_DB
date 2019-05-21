@@ -1,0 +1,12 @@
+cmd
+//instalação da biblioteca python para fazer a conexão
+pip install mysql-connector-python
+
+//PyScripter novo arquivo
+import mysql.connector
+
+class Conexao:
+
+  def __init__(self):
+    self.conn = mysql.connector.connect(host = 'localhost', user = 'root', password = '', database = 'minicursodb')
+
