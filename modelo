@@ -1,0 +1,4 @@
+# Comentário
+print('\n')
+
+enter = input("\nPressione <Enter> para encerrar...")
