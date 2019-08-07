@@ -1,0 +1,4 @@
+#Como efetuar formatação da saida
+print("\nO salario desse mês será: %0.00f" % salario)
+
+Como formatar posicionamento da variavel

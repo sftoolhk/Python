@@ -1,0 +1,13 @@
+#Aceitar caracteres como entrada de dados em numeros reais
+, & .
+
+#Formatação de letras
+if (sexo.upper() == 'M'):
+
+#Caractere invalido
+while True:
+  try:
+    s = float(raw_input('Número: >> '))
+    break
+  except ValueError:
+    print 'Essa não é uma resposta válida\n'
