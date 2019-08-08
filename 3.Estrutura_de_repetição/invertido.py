@@ -6,4 +6,4 @@ if espelho == numeros:
 else:
     print('\nOnly numbers!')
 
-    enter = input("\nPressione <Enter> para encerrar...")
+enter = input("\nPressione <Enter> para encerrar...")
