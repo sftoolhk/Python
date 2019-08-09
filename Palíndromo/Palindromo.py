@@ -7,3 +7,5 @@ if espelho == juntar:
     print('\nPalíndromo!')
 else:
     print('\nOnly words!')
+
+    enter = input("\nPressione <Enter> para encerrar...")
