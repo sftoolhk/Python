@@ -1,0 +1,21 @@
+texto = texto.lower() #converte para minúsculas
+#removem espaços, linhas e símbolos de pontuação
+texto = texto.replace(" ","")
+texto = texto.replace("\n","")
+texto = texto.replace(".","")
+texto = texto.replace("!","")
+texto = texto.replace("?","")
+texto = texto.replace(",","")
+texto = texto.replace(";","")
+
+#removem acentos e cedilha
+texto = texto.replace("á","a")
+texto = texto.replace("à","a")
+texto = texto.replace("ã","a")
+texto = texto.replace("é","e")
+texto = texto.replace("ê","e")
+texto = texto.replace("í","i")
+texto = texto.replace("ó","o")
+texto = texto.replace("ô","o")
+texto = texto.replace("ú","u")
+texto = texto.replace("ç","c")
